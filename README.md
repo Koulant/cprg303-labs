@@ -1,2 +1,2 @@
 # CPRG303_Labs
- Learning React Native
+Mobile Application Development labs geared towards learning React Native and accompanying technologies to create mobile applications.
