@@ -4,6 +4,7 @@ import { SafeAreaView, Button } from 'react-native';
 
 import ToDoList from '../ToDoList';
 import ToDoForm from '../ToDoForm';
+import CatFact from '../CatFact';
 
 function Home( {navigation} ) {
 
@@ -28,6 +29,8 @@ function Home( {navigation} ) {
                     title="Go to About"
                     onPress={() => navigation.navigate('About')} //Takes user to About screen using the navigation prop and navigate method
                 />
+
+                <CatFact />
             </SafeAreaView>
         </>
     );
