@@ -6,7 +6,7 @@ import {
     Button
   } from 'react-native';
 
-import { styles } from './App';
+import { styles } from '../App';
 
 function ToDoForm( {addTask} ) {
 

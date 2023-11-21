@@ -7,7 +7,7 @@ import {
     ScrollView,
   } from 'react-native';
 
-import { styles } from './App';
+import { styles } from '../App';
 
 function ToDoList({ tasks }) {
     return (
