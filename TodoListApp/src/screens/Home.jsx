@@ -30,7 +30,7 @@ function Home( {navigation} ) {
                     onPress={() => navigation.navigate('About')} //Takes user to About screen using the navigation prop and navigate method
                 />
 
-                <CatFact />
+                <CatFact/>
             </SafeAreaView>
         </>
     );

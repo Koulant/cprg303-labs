@@ -30,7 +30,7 @@ const CatFact = ( {} ) => {
 
     return (
         <>
-            <Text> {fact} </Text>
+            <Text>{fact}</Text>
             <Button title="New Fact" onPress={handleNewFact} />
         </>
     );
